@@ -28,12 +28,13 @@
     cursor: pointer;
     
 }
-.right i{
-    margin-top: 1.5vw;
+#call-icon{
+    color: #336A25;
 }
 .side-contacts{
     display: flex;
     flex-direction: row;
     gap: 3vw;
+    margin-top: 1.5vw;
 
 }
