@@ -1,0 +1,13 @@
+
+body{
+    background-color: #021722;
+}
+.landing_page{
+    display: flex;
+    flex-direction: row;
+    gap: 10vw;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 10vw;
+}
