@@ -1,7 +1,10 @@
-
-body{
+body {
+    background: linear-gradient(to bottom, #010405, #032033, #043044);
+    /* Fallback for browsers that don't support gradients */
     background-color: #021722;
 }
+
+
 .landing_page{
     display: flex;
     flex-direction: row;
@@ -20,7 +23,7 @@ body{
     margin-top: -5vw;
 }
 .titles-buttons h4{
-    margin-top: -2vw;
+    margin-top: 0.5vw;
     opacity: 0.3;
     font-size: 2vw;
 }
@@ -35,10 +38,31 @@ body{
     padding: 1vw;
     margin-top: 2vw;
     border-radius: 0.5vw;
-    margin-top: -2vw;
+    margin-top: 1vw;
 }
 
 #bulls-eye{
     font-size: 4vw;
     color: #CA5747;
+}
+/* //Booking */
+.book-headings{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 10vw;
+    margin-top: 7vw;
+}
+.book-headings h1{
+    font-size: 4vw;
+}
+.book-headings h4{
+    font-size: 1.5vw;
+    opacity: 0.3;
+}
+.book-headings hr{
+    border: 2px solid white;
 }

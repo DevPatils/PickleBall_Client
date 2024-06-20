@@ -9,6 +9,9 @@
     flex-direction: row;
     gap: 1vw;
 }
+.left h3{
+    margin-top: 1vw;
+}
 .logo img{
     height: 4vw;
     width: 4vw;
@@ -26,6 +29,7 @@
     font-size: 1vw;
     font-weight: bold;
     cursor: pointer;
+    margin-top: -1.5vw;
     
 }
 #call-icon{
@@ -36,5 +40,15 @@
     flex-direction: row;
     gap: 3vw;
     margin-top: 1.5vw;
+}
+.contact-us{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+}
+.login-button{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
 
 }

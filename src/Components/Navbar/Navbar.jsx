@@ -15,12 +15,12 @@ export const Navbar = () => {
     <div className="right">
         <div className="side-contacts">
             <div className="contact-us">
-        <i id='call-icon' class="fa-solid fa-phone"></i>
+        <i  class="fa-solid fa-phone" id='call-icon'></i>
         <button >Contact Us</button>
         </div>
         
         <div className="login-button">
-        <i class="fa-regular fa-user"></i>
+        <i class="fa-regular fa-user" id='user-icon'></i>
         <button >Login</button>
         </div>
         </div>
