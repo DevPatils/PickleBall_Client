@@ -37,11 +37,9 @@ export const Landingpage = () => {
 
     <div className="book-cards">
       <Card image={court} title={"Pickle Ball Court"} location={"Vadodara"}></Card>
+      <Card image={court} title={"Cricket turf"} location={"Vadodara"}></Card>
 
     </div>
-
-
-
 
     </>
   )

@@ -66,3 +66,14 @@ body {
 .book-headings hr{
     border: 2px solid white;
 }
+
+.book-cards{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 10vw;
+    margin-top: 7vw;  
+}

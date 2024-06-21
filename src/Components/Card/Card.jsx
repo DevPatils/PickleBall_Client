@@ -27,7 +27,7 @@ export const Card = (props) => {
                     </div>
 
                         <div className="prices">
-                            <div>
+                            <div className='priceHeadings'>
                             <h2>₹ 500 </h2>
                             <h4>Onwards</h4>
                             </div>
