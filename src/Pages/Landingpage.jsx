@@ -9,7 +9,9 @@ export const Landingpage = () => {
   const cardsRef = useRef(null);
 
   const scrollToCards = () => {
-    cardsRef.current.scrollIntoView({ behavior: 'smooth' });
+    if (cardsRef.current) {
+      cardsRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
   };
 
   return (
@@ -46,4 +48,5 @@ export const Landingpage = () => {
     </>
   );
 }
+
 export default Landingpage;
