@@ -1,5 +1,6 @@
 import React from 'react'
-import img1 from ''
+import img1 from "../../Images/pickle court.jpg"
+import './Carousal.css'
 
 export const Carousal = () => {
     return (
@@ -9,7 +10,7 @@ export const Carousal = () => {
                     <div id="carouselExample" className="carousel slide">
                         <div className="carousel-inner">
                             <div className="carousel-item active">
-                                <img src="..." className="d-block w-100" alt="..." />
+                                <img src={img1} className="d-block w-100" alt="..." />
                             </div>
                             <div className="carousel-item">
                                 <img src="..." className="d-block w-100" alt="..." />
@@ -28,7 +29,18 @@ export const Carousal = () => {
                         </button>
                     </div>
                 </div>
+                <div className="info">
+                <div className="name-add">
+                    <h1>United Sports Pickle Ball Arena</h1>
+                    <div className="location">
+                        <i class="fa-solid fa-map-marker-alt"></i>
+                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum explicabo dolore doloribus, ratione velit delectus commodi vero, optio saepe, quidem similique. Molestias debitis impedit excepturi reprehenderit illum laborum in cum.</h4>
+                    </div>
+                </div>
             </div>
+            </div>
+
+
         </div>
     )
 }

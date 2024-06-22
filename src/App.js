@@ -5,7 +5,7 @@ import Landingpage from "./Pages/Landingpage";
 export default function App() {
   return (
     <>
-      <Landingpage></Landingpage>
+      {/* <Landingpage></Landingpage> */}
       <Bookings></Bookings>
     </>
   )
