@@ -30,14 +30,23 @@ export const Carousal = () => {
                     </div>
                 </div>
                 <div className="info">
-                <div className="name-add">
-                    <h1>United Sports Pickle Ball Arena</h1>
-                    <div className="location">
-                        <i class="fa-solid fa-map-marker-alt"></i>
-                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum explicabo dolore doloribus, ratione velit delectus commodi vero, optio saepe, quidem similique. Molestias debitis impedit excepturi reprehenderit illum laborum in cum.</h4>
+                    <div className="name-add">
+                        <h1>United Sports Pickle Ball Arena</h1>
+                        <div className="location">
+                            <i class="fa-solid fa-map-marker-alt"></i>
+                            <h4>Dhairya Prasad Palace, Opp Lal Baug Under Lal Baug Bridge, <br/>Main Gate, beside Patanjali Store, Manjalpur, Vadodara, Gujarat 390011</h4>
+                        </div>
                     </div>
+                    <div className="ratings">
+                        <div className="like-icon">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <div className="share-icon">
+                            <i class="fa-solid fa-share"></i>
+                        </div>
+                    </div>
+
                 </div>
-            </div>
             </div>
 
 

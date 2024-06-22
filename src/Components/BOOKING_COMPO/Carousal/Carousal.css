@@ -1,9 +1,29 @@
 .info-carousal{
     display: flex;
     flex-direction: row;
+    gap: 3vw;
+    margin-top: 5vh;
 }
 .carousal{
     display: flex ;
     height: 20vw;
     width: 20vw;
+    
+
+}
+
+.ratings{
+    display: flex;
+    flex-direction: column;
+    
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    gap: 35vw;
+}
+.location-marker{
+    color: #462e2c;
+    margin-right: 5px;
+    size: 5vw;
 }
