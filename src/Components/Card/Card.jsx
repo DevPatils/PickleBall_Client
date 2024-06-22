@@ -4,7 +4,7 @@ import React from 'react'
 import './Card.css'
 export const Card = (props) => {
     return (
-        <div>
+        <div >
             <div className="card">
                 <img src={props.image} alt="" />
                 <h1>{props.title}</h1>
