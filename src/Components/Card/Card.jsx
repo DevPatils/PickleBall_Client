@@ -2,7 +2,9 @@
 
 import React from 'react'
 import './Card.css'
+import { useNavigate } from 'react-router-dom'
 export const Card = (props) => {
+    const navigate=useNavigate();
     return (
         <div >
             <div className="card">
@@ -36,7 +38,7 @@ export const Card = (props) => {
 
                 </div>
                 <div className="book">
-                    <button>Book Now</button>
+                    <button onClick={()=>{navigate("/bookings")}}>Book Now</button>
                 </div>
             </div>
 
