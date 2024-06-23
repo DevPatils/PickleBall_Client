@@ -1,0 +1,9 @@
+.info-carousal{
+    display: flex;
+    flex-direction: row;
+}
+.carousal{
+    display: flex ;
+    height: 20vw;
+    width: 20vw;
+}

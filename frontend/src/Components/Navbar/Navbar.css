@@ -1,0 +1,54 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 75vw;
+    background-color: #223649;
+}
+.left{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+}
+.left h3{
+    margin-top: 1vw;
+}
+.logo img{
+    height: 4vw;
+    width: 4vw;
+}
+.right{
+    display:flex;
+    flex-direction: row;
+    gap: 1vw;
+    
+}
+.right button{
+    background-color: #223649;
+    color: white;
+    border: none;
+    font-size: 1vw;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: -1.5vw;
+    
+}
+#call-icon{
+    color: #336A25;
+}
+.side-contacts{
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+    margin-top: 1.5vw;
+}
+.contact-us{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+}
+.login-button{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+
+}
