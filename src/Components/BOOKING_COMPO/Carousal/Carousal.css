@@ -1,20 +1,41 @@
 .info-carousal{
     display: flex;
     flex-direction: row;
-    gap: 3vw;
+    gap: 2vw;
     margin-top: 5vh;
 }
 .carousal{
     display: flex ;
-    height: 20vw;
+    height: 13.7vw;
     width: 20vw;
-    
+    border: 2px solid black;
+    border-radius: 2vwvw;
+    margin-right:5vw ;
 
 }
-
-.ratings{
+.right{
     display: flex;
     flex-direction: column;
+    gap: 2vw;
+
+}
+.star-rattings{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    border: 2px solid black;
+    background-color: yellow;
+    padding: 0.5vw;
+    border-radius: 0.5vw;
+    width: 5vw;
+}
+.share-icon{
+    margin-right: 8vw;
+}
+.ratings{
+    display: flex;
+    flex-direction: row;
+    gap: -10vw;
     
 }
 .info{
@@ -22,8 +43,52 @@
     flex-direction: row;
     gap: 35vw;
 }
-.location-marker{
-    color: #462e2c;
-    margin-right: 5px;
-    size: 5vw;
+.directions button{
+    background-color: #CA5747;
+    color: white;
+    border: none;
+    font-size: 1vw;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0.5vw;
+    margin-top: 2vw;
+    border-radius: 0.5vw;
+    margin-top: 1vw;
+}
+.page-nav{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    margin-top: 5vh;
+    background-color:#223649;
+    padding: 1.5vw;
+
+}
+.book-timeline{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    margin-top: 5vh;
+}   
+.first-box{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    width: 60vw;
+    height: 20vw;
+    border: 2px solid black;
+    border-radius: 2vw;
+    padding: 2vw;
+}
+.change-button{
+    background-color: #CA5747;
+    color: white;
+    height: 2vw;
+    /* width: 5vw; */
+    margin-left: 30vw;
+    border-radius: 0.4vw;
+    padding: 0.2vw;
+
+    /* border-radius: 0.5 px; */
+
 }
